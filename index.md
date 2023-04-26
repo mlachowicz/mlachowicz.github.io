@@ -1,10 +1,8 @@
 ---
 layout: home
 ---
-# About Theme
+# About
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+I'm just yet another IT professional who loves to explore new concepts and technologies. I don’t know all the answers, but I'm agile and quite proficient in working out how to find out the solutions.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
-
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+This place is my personal sketchbook for taking notes. For anyone who can find this useful...
