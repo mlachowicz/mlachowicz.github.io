@@ -16,7 +16,7 @@
   <!-- Twitter Cards -->
   {% if page.image %}{% capture image %}{{ page.image }}{% endcapture %}{% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/{{ image }}{% endcapture %}{% endunless %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ image }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/{{ image }}">
   {% else %}<meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ site.logo }}">{% endif %}
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
