@@ -5,6 +5,9 @@ url: https://mlachowicz.github.io
 logo: logo.png                                       # Site logo
 locale: en_US
 
+layout: default
+comments: true
+
 # Left Block Images
 background:
   homepage: images/home.jpg                           # this image will be shown on homepage's left block
