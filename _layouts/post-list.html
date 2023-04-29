@@ -30,7 +30,7 @@ layout: compress
               </a>
               <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
             </h2>
-            <p>{{ post.excerpt | strip_html | truncatewords:30 }}</p>
+            <p>{{ post.excerpt | strip_html | truncatewords:50 }}</p>
             <ul class="tags">
             {% for tag in post.tags %}
               <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
