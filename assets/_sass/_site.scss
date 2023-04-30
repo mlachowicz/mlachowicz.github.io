@@ -86,14 +86,14 @@ canvas {
     }
   }
   &:hover {
-    border-color: #800000;
+    border-color: $green;
     &:before {
-      border-color: #800000;
+      border-color: $green;
     }
     span {
-      border-color: #800000;
+      border-color: $green;
       &:before {
-        border-color: #800000;
+        border-color: $green;
       }
     }
   }
