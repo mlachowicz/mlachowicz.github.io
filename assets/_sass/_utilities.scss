@@ -101,22 +101,14 @@
       border-color: mix($white, #55acee, 25%);
     }
   }
-    }
-  &_twitter {
-    background-color: #55acee;
+  &_linkedin {
+    background-color: #0077b5;
     color: $white !important;
     &:hover {
-      background-color: mix($white, #55acee, 25%);
-      border-color: mix($white, #55acee, 25%);
+      background-color: mix($white, #0077b5, 25%);
+      border-color: mix($white, #0077b5, 25%);
     }
   }
-  &_linkedin {
-    background-color: #0077a8;
-    color: $white !important;
-    &:hover {
-    background-color: mix($white, #0077a8, 25%);
-    border-color: mix($white, #0077a8, 25%);
-    }
 }
 a.btn {
   text-decoration: none;
