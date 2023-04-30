@@ -2,8 +2,8 @@
 layout: home
 ---
 <!--# About-->
-My name is Marcin and I live in the South of Poland. I'm just yet another computer geek who loves to explore new concepts and technologies. 
+I'm just yet another computer geek who loves to explore new concepts and technologies.
 
-This space is my public sketchbook for taking notes on various topics related to IT, cybersecurity, infosec, or OSINT. 
+This is my public sketchbook for taking notes on various topics related to IT, cybersecurity, infosec, or OSINT.
 
-For anyone who can find this useful...
+Shared with anyone who can find this useful...
