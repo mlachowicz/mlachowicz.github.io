@@ -1,7 +1,7 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
-.#{$fa-css-prefix}-htb:before { content: $fa-var-terminal; }
+.#{$fa-css-prefix}-htb:before { content: $fa-var-archive; }
 .#{$fa-css-prefix}-glass:before { content: $fa-var-glass; }
 .#{$fa-css-prefix}-music:before { content: $fa-var-music; }
 .#{$fa-css-prefix}-search:before { content: $fa-var-search; }
