@@ -28,9 +28,6 @@ sass:
   sass_dir:         assets/_sass
   style:            compressed
 
-# Google Analytics
-#google-analytics: G-8842ZE1YCW
-
 # Social Links
 #google.plus:        username
 twitter:            marcinlachowicz
