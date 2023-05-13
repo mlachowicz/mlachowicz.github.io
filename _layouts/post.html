@@ -38,7 +38,9 @@ layout: compress
         {{ content }}
         <br>
         {% include share.html %}
-        <script src="https://giscus.app/client.js"
+        {% include page-pagination.html %}
+      </div>
+      <script src="https://giscus.app/client.js"
         data-repo="mlachowicz/giscus"
         data-repo-id="R_kgDOJijBNQ"
         data-category="General"
@@ -52,9 +54,7 @@ layout: compress
         data-lang="en"
         crossorigin="anonymous"
         async>
-        </script>
-        {% include page-pagination.html %}
-      </div>
+      </script>
     </div>
     {% include scripts.html %}
     {% include overlay.html %}
