@@ -7,7 +7,7 @@ tags:
   - linux
 ---
 
-Linux System Administration
+## Linux System Administration
 
 1. Introduction
 - Distributions
@@ -79,7 +79,7 @@ Linux System Administration
 - Tests
 - Functions
 
-1. Introduction
+## 1. Introduction
 
 ### Distributions
 
@@ -143,11 +143,11 @@ User manual for the ```ls``` command
 man ls
 ```
 
-2. Working with files and directories
+## 2. Working with files and directories
 
 ### File system structure
 
-/		root directory of the entire file system hierarchy
+/		    root directory of the entire file system hierarchy
 /bin		essential binary command files
 /boot		boot loader files
 /dev		device files
