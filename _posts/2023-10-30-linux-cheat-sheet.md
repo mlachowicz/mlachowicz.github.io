@@ -98,31 +98,45 @@ Selected systems from the Red Hat family:
 ## Running commands from the command line
 
 Listing the contents of the current directory
-```ls```
+```
+ls
+```
 
 
 Full listing of directory contents
-```ls -l```
+```
+ls -l
+```
 
 
 Full listing of directory contents including hidden entries
-```ls -la```
+```
+ls -la
+```
 
 
 Listing the contents of a directory using the full path as an argument
-```ls /boot```
+```
+ls /boot
+```
 
 
 Listing the contents of a directory using options and an argument
-```ls -lh /boot```
+```
+ls -lh /boot
+```
 
 
 Quick help for the ```ls``` command
-```ls --help```
+```
+ls --help
+```
 
 
 User manual for the ```ls``` command
-```man ls```
+```
+man ls
+```
 
 
 2. Working with files and directories
