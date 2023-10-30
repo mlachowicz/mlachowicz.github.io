@@ -102,46 +102,39 @@ Listing the contents of the current directory
 ls
 ```
 
-
 Full listing of directory contents
 ```
 ls -l
 ```
-
 
 Full listing of directory contents including hidden entries
 ```
 ls -la
 ```
 
-
 Listing the contents of a directory using the full path as an argument
 ```
 ls /boot
 ```
-
 
 Listing the contents of a directory using options and an argument
 ```
 ls -lh /boot
 ```
 
-
 Quick help for the ```ls``` command
 ```
 ls --help
 ```
-
 
 User manual for the ```ls``` command
 ```
 man ls
 ```
 
-
 2. Working with files and directories
 
-* File system structure
+## File system structure
 
 /		root directory of the entire file system hierarchy
 /bin		essential binary command files
@@ -162,45 +155,68 @@ man ls
 /usr		secondary hierarchy for user data, containing binary and library files
 /var		files that can change in size
 
-* Creating and deleting files and folders
+## Creating and deleting files and folders
 
-Creating an empty file:
+Creating an empty file
+```
 touch system.txt
+```
 
-Creating a directory:
+Creating a directory
+```
 mkdir linux
+```
 
-Deleting a file:
+Deleting a file
+```
 rm system.txt
+```
 
-Deleting a directory with its contents:
+Deleting a directory with its contents
+```
 rm -r linux
+```
 
-* Copying, moving, and renaming files and folders
+## Copying, moving, and renaming files and folders
 
-Prepare files:
+Prepare files
+```
 mkdir linux files
 touch system.txt
+```
 
-Copying a file to another existing directory:
+Copying a file to another existing directory
+```
 cp system.txt linux
+```
 
-Duplicating a file:
+Duplicating a file
+```
 cp system.txt system_copy.txt
+```
 
-Recursively copying a directory:
+Recursively copying a directory
+```
 cp -r linux linux_copy
+```
 
-Moving a file to another existing directory:
+Moving a file to another existing directory
+```
 mv system_copy.txt linux_copy
+```
 
-Moving a directory to another existing directory:
+Moving a directory to another existing directory
+```
 mv linux_copy files
+```
 
-Renaming a file:
+Renaming a file
+```
 mv system.txt os.txt
+```
 
-Listing the contents of directories in a tree format:
+Listing the contents of directories in a tree format
+```
 sudo apt install tree
 tree
 
@@ -216,64 +232,95 @@ tree
 
 3 directories, 4 files
 --
+```
 
-Renaming a directory:
+Renaming a directory
+```
 mv files/linux_copy files/copy
+```
 
-* Searching
+## Searching
 
-Prepare files:
+Prepare files
+```
 echo Linux > os.txt
 echo Windows, Linux, macOS > new.txt
+```
 
-Searching for files and directories with a given name in the current directory:
+Searching for files and directories with a given name in the current directory
+```
 find . -name "os.txt"
+```
 
-Searching for files and directories with a given name in a specific directory:
+Searching for files and directories with a given name in a specific directory
+```
 find / -name "os.txt"
+```
 
-Searching for files containing specific text:
+Searching for files containing specific text
+```
 grep "Linux" new.txt
+```
 
-* Viewing content
+## Viewing content
 
-Displaying the content of a text file:
+Displaying the content of a text file
+```
 cat os.txt
+```
 
-Displaying the content of a text file with line numbers:
+Displaying the content of a text file with line numbers
+```
 nl os.txt
+```
 
-Viewing the first few lines of a text file:
+Viewing the first few lines of a text file
+```
 head os.txt
+```
 
-Viewing the last few lines of a text file:
+Viewing the last few lines of a text file
+```
 tail os.txt
+```
 
-Displaying the content of a text file with a pager:
+Displaying the content of a text file with a pager
+```
 less os.txt
+```
 
-* Packing and unpacking files
+## Packing and unpacking files
 
-Creating a compressed archive with the 'tar' command:
+Creating a compressed archive with the ```tar``` command
+```
 tar -czvf archive.tar.gz os.txt
+```
 
-Extracting files from a compressed archive:
+Extracting files from a compressed archive
+```
 tar -xzvf archive.tar.gz
+```
 
-Creating a compressed archive with the 'zip' command:
+Creating a compressed archive with the ```zip``` command
+```
 zip archive.zip os.txt
+```
 
-Extracting files from a compressed archive:
+Extracting files from a compressed archive
+```
 unzip archive.zip
+```
 
 4. File editing
 
-* Text editor
+## Text editor
 
 Opening a text file in the 'nano' text editor:
+```
 nano os.txt
+```
 
-* Command line editing with a stream editor
+## Command line editing with a stream editor
 
 Replacing text in a file using 'sed':
 echo "Hello, World!" > greeting.txt
