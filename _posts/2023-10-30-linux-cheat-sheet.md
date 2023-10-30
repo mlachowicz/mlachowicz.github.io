@@ -81,7 +81,7 @@ Linux System Administration
 
 1. Introduction
 
-# Distributions
+### Distributions
 
 Selected systems from the Debian family:
 - Debian
@@ -95,7 +95,7 @@ Selected systems from the Red Hat family:
 - Fedora
 - Rocky Linux
 
-## Running commands from the command line
+### Running commands from the command line
 
 Listing the contents of the current directory
 ```
@@ -134,7 +134,7 @@ man ls
 
 2. Working with files and directories
 
-## File system structure
+### File system structure
 
 /		root directory of the entire file system hierarchy
 /bin		essential binary command files
@@ -155,7 +155,7 @@ man ls
 /usr		secondary hierarchy for user data, containing binary and library files
 /var		files that can change in size
 
-## Creating and deleting files and folders
+### Creating and deleting files and folders
 
 Creating an empty file
 ```
@@ -177,7 +177,7 @@ Deleting a directory with its contents
 rm -r linux
 ```
 
-## Copying, moving, and renaming files and folders
+### Copying, moving, and renaming files and folders
 
 Prepare files
 ```
@@ -239,7 +239,7 @@ Renaming a directory
 mv files/linux_copy files/copy
 ```
 
-## Searching
+### Searching
 
 Prepare files
 ```
@@ -262,7 +262,7 @@ Searching for files containing specific text
 grep "Linux" new.txt
 ```
 
-## Viewing content
+### Viewing content
 
 Displaying the content of a text file
 ```
@@ -289,7 +289,7 @@ Displaying the content of a text file with a pager
 less os.txt
 ```
 
-## Packing and unpacking files
+### Packing and unpacking files
 
 Creating a compressed archive with the ```tar``` command
 ```
@@ -313,14 +313,14 @@ unzip archive.zip
 
 4. File editing
 
-## Text editor
+### Text editor
 
 Opening a text file in the 'nano' text editor:
 ```
 nano os.txt
 ```
 
-## Command line editing with a stream editor
+### Command line editing with a stream editor
 
 Replacing text in a file using 'sed'
 ```
@@ -330,14 +330,14 @@ sed -i 's/Hello/Hi/' greeting.txt
 
 5. Working in the shell
 
-## Command substitution
+### Command substitution
 
 Running a command and using its output as an argument for another command
 ```
 ls -l /bin/$(which nano)
 ```
 
-## Variables
+### Variables
 
 Defining and displaying a variable
 ```
@@ -345,7 +345,7 @@ MY_VAR="Hello, Shell!"
 echo $MY_VAR
 ```
 
-## Init files
+### Init files
 
 Displaying the contents of the ```.bashrc``` file
 ```
@@ -357,7 +357,7 @@ Editing the ```.bashrc``` file
 nano ~/.bashrc
 ```
 
-## Stream redirection
+### Stream redirection
 
 Redirecting the output of a command to a file
 ```
@@ -376,7 +376,7 @@ cat < os.txt
 
 6. File system permissions
 
-## Understanding permissions and ownership
+### Understanding permissions and ownership
 
 Listing file permissions
 ```
@@ -388,7 +388,7 @@ Displaying the owner of a file
 ls -l os.txt
 ```
 
-## Absolute and symbolic mode
+### Absolute and symbolic mode
 
 Changing file permissions using absolute mode
 ```
@@ -402,13 +402,17 @@ chmod u+x os.txt
 
 * Changing permissions
 
-Changing the owner of a file:
+Changing the owner of a file
+```
 chown user1 os.txt
+```
 
-Changing the group of a file:
+Changing the group of a file
+```
 chown :group1 os.txt
+```
 
-* Access mode creation mask
+### Access mode creation mask
 
 Viewing the current umask value:
 umask
