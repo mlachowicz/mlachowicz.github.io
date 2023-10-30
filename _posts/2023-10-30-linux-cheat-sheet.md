@@ -83,17 +83,28 @@ Linux System Administration
 
 ### Distributions
 
-Selected systems from the Debian family:
+Selected systems from the Debian family
 - Debian
 - Ubuntu
 - Linux Mint
+- Knoppix
 - Kali Linux
+- Parrot OS
+- Armbian
+- Tails
 
-Selected systems from the Red Hat family:
+Selected systems from the Red Hat family
 - Red Hat Enterprise Linux
 - CentOS
+- Oracle Linux
 - Fedora
-- Rocky Linux
+- Red Flag Linux
+
+Selected systems from the Arch family
+- Arch Linux
+- Manjaro
+- BlackArch
+- Athena OS
 
 ### Running commands from the command line
 
