@@ -81,7 +81,7 @@ Linux System Administration
 
 1. Introduction
 
-## Distributions
+# Distributions
 
 Selected systems from the Debian family:
 - Debian
@@ -322,59 +322,83 @@ nano os.txt
 
 ## Command line editing with a stream editor
 
-Replacing text in a file using 'sed':
+Replacing text in a file using 'sed'
+```
 echo "Hello, World!" > greeting.txt
 sed -i 's/Hello/Hi/' greeting.txt
+```
 
 5. Working in the shell
 
-* Command substitution
+## Command substitution
 
-Running a command and using its output as an argument for another command:
+Running a command and using its output as an argument for another command
+```
 ls -l /bin/$(which nano)
+```
 
-* Variables
+## Variables
 
-Defining and displaying a variable:
+Defining and displaying a variable
+```
 MY_VAR="Hello, Shell!"
 echo $MY_VAR
+```
 
-* Init files
+## Init files
 
-Displaying the contents of the '.bashrc' file:
+Displaying the contents of the ```.bashrc``` file
+```
 cat ~/.bashrc
+```
 
-Editing the '.bashrc' file:
+Editing the ```.bashrc``` file
+```
 nano ~/.bashrc
+```
 
-* Stream redirection
+## Stream redirection
 
-Redirecting the output of a command to a file:
+Redirecting the output of a command to a file
+```
 ls -l > list.txt
+```
 
-Redirecting the output of a command and appending it to a file:
+Redirecting the output of a command and appending it to a file
+```
 ls -l >> list.txt
+```
 
-Redirecting the input of a command from a file:
+Redirecting the input of a command from a file
+```
 cat < os.txt
+```
 
 6. File system permissions
 
-* Understanding permissions and ownership
+## Understanding permissions and ownership
 
-Listing file permissions:
+Listing file permissions
+```
 ls -l os.txt
+```
 
-Displaying the owner of a file:
+Displaying the owner of a file
+```
 ls -l os.txt
+```
 
-* Absolute and symbolic mode
+## Absolute and symbolic mode
 
-Changing file permissions using absolute mode:
+Changing file permissions using absolute mode
+```
 chmod 644 os.txt
+```
 
-Changing file permissions using symbolic mode:
+Changing file permissions using symbolic mode
+```
 chmod u+x os.txt
+```
 
 * Changing permissions
 
